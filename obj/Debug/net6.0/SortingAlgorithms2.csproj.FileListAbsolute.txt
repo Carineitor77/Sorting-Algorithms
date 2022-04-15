@@ -1,0 +1,15 @@
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\bin\Debug\net6.0\SortingAlgorithms2.exe
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\bin\Debug\net6.0\SortingAlgorithms2.deps.json
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\bin\Debug\net6.0\SortingAlgorithms2.runtimeconfig.json
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\bin\Debug\net6.0\SortingAlgorithms2.dll
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\bin\Debug\net6.0\ref\SortingAlgorithms2.dll
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\bin\Debug\net6.0\SortingAlgorithms2.pdb
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\SortingAlgorithms2.csproj.AssemblyReference.cache
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\SortingAlgorithms2.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\SortingAlgorithms2.AssemblyInfoInputs.cache
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\SortingAlgorithms2.AssemblyInfo.cs
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\SortingAlgorithms2.csproj.CoreCompileInputs.cache
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\SortingAlgorithms2.dll
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\ref\SortingAlgorithms2.dll
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\SortingAlgorithms2.pdb
+D:\VS project\.NET\MyProjects\SortingAlgorithms2\obj\Debug\net6.0\SortingAlgorithms2.genruntimeconfig.cache
