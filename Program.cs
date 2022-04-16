@@ -4,7 +4,7 @@
     {
         static void Main()
         {
-            ISortArray array = new AlgorithmBase(key: 3, arraySize: 10000);
+            ISortArray array = new AlgorithmBase(key: (int)TypeOfFilling.random, arraySize: 10000);
             IMakeSort[] makeSort = {
                 new BubbleSort(),
                 new CocktailSort(),
