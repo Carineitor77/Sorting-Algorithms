@@ -1,6 +1,8 @@
-﻿namespace SortingAlgorithms
+﻿using System.Collections;
+
+namespace SortingAlgorithms
 {
-    interface ISortArray
+    interface ISortArray : IEnumerable
     {
         int Key { get; set; }
         int ArraySize { get; set; }

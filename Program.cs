@@ -15,9 +15,11 @@
                 new HeapSort()
             };
 
+            foreach (var alg in array) { Console.WriteLine("- " + alg); }
             array.StartSorting();
             foreach (var item in makeSort)
-                array.SortArray(item);
+                if (item is IMakeSort i)
+                    array.SortArray(i);
         }
     }
 }

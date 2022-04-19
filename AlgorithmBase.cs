@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Diagnostics;
 
 namespace SortingAlgorithms
@@ -22,7 +23,7 @@ namespace SortingAlgorithms
             set { arraySize = value >= 2 ? value : 10000; }
         }
 
-        public AlgorithmBase() {}
+        public AlgorithmBase() { }
 
         public AlgorithmBase(int key, int arraySize)
         {
@@ -61,7 +62,7 @@ namespace SortingAlgorithms
             {
                 while (ArraySize <= 1)
                 {
-                    Console.Write("Enter an array size: ");
+                    Console.Write("\n\nEnter an array size: ");
                     int.TryParse(Console.ReadLine(), out arraySize);
                 }
                 ChooseFillingType(ArraySize);
@@ -100,7 +101,7 @@ namespace SortingAlgorithms
             {
                 for (int i = 0; i < arr.Length; i++)
                     arr[i] = i;
-            } 
+            }
             else if (Key == 2)
             {
                 for (int i = arr.Length, j = 0; i > 0; i--, j++)
@@ -118,6 +119,8 @@ namespace SortingAlgorithms
         {
             Stopwatch stopwatch = new Stopwatch();
             int[] arr = FillArray(Key, ArraySize);
+
+            Console.WriteLine("\n\n" + new string('-', 100));
 
             stopwatch.Start();
             var tuple = sortArray.MakeSort(arr);
@@ -146,7 +149,14 @@ namespace SortingAlgorithms
                         Console.Write($"{tuple.Item1[j]}  ");
                 }
             }
-            Console.WriteLine("\n\n" + new string('-', 100));
+            Console.WriteLine();
+        }
+
+        private static string[] algs = { "BubbleSort", "CocktailSort", "SelectionSort", "InsertionSort", "ShellSort", "TreeSort", "HeapSort" };
+        public IEnumerator GetEnumerator()
+        {
+            Console.WriteLine("This program implements the following sorting algorithms:");
+            return algs.GetEnumerator();
         }
     }
 }
