@@ -152,7 +152,7 @@ namespace SortingAlgorithms
             Console.WriteLine();
         }
 
-        private static string[] algs = { "BubbleSort", "CocktailSort", "SelectionSort", "InsertionSort", "ShellSort", "TreeSort", "HeapSort" };
+        private static readonly string[] algs = { "BubbleSort", "CocktailSort", "SelectionSort", "InsertionSort", "ShellSort", "TreeSort", "HeapSort", "GnomeSort" };
         public IEnumerator GetEnumerator()
         {
             Console.WriteLine("This program implements the following sorting algorithms:");

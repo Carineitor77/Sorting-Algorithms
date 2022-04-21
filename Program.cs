@@ -7,6 +7,7 @@
             ISortArray array = new AlgorithmBase(key: (int)TypeOfFilling.random, arraySize: 10000);
             IMakeSort[] makeSort = {
                 new BubbleSort(),
+                new GnomeSort(),
                 new CocktailSort(),
                 new SelectionSort(),
                 new InsertionSort(),
