@@ -6,7 +6,7 @@ namespace SortingAlgorithms
     {
         public (int[], int, int) MakeSort(int[] arr)
         {
-            Console.WriteLine("InsertionSort");
+            Console.WriteLine(typeof(InsertionSort).Name);
             for (int i = 1; i < arr.Length; i++)
             {
                 int temp = arr[i];

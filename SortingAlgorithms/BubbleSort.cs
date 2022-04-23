@@ -6,7 +6,7 @@ namespace SortingAlgorithms
     {
         public (int[], int, int) MakeSort(int[] arr)
         {
-            Console.WriteLine("BubbleSort");
+            Console.WriteLine(typeof(BubbleSort).Name);
             bool flag;
 
             do

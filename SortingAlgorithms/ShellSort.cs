@@ -6,7 +6,7 @@ namespace SortingAlgorithms
     {
         public (int[], int, int) MakeSort(int[] arr)
         {
-            Console.WriteLine("ShellSort");
+            Console.WriteLine(typeof(ShellSort).Name);
             int step = arr.Length / 2;
 
             while (step > 0)

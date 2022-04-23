@@ -62,7 +62,7 @@ namespace SortingAlgorithms
             {
                 while (ArraySize <= 1)
                 {
-                    Console.Write("\n\nEnter an array size: ");
+                    Console.Write("Enter an array size: ");
                     int.TryParse(Console.ReadLine(), out arraySize);
                 }
                 ChooseFillingType(ArraySize);
@@ -82,6 +82,7 @@ namespace SortingAlgorithms
                 {
                     Console.Write("key: ");
                     Key = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine(new string('-', 100));
                     break;
                 }
                 catch (FormatException)
@@ -89,7 +90,6 @@ namespace SortingAlgorithms
                     Console.WriteLine("Please enter a valid number");
                 }
             }
-            Console.WriteLine("\n");
             FillArray(Key, ArraySize);
         }
         public int[] FillArray(int Key, int ArraySize)
@@ -120,8 +120,6 @@ namespace SortingAlgorithms
             Stopwatch stopwatch = new Stopwatch();
             int[] arr = FillArray(Key, ArraySize);
 
-            Console.WriteLine("\n\n" + new string('-', 100));
-
             stopwatch.Start();
             var tuple = sortArray.MakeSort(arr);
             stopwatch.Stop();
@@ -149,14 +147,7 @@ namespace SortingAlgorithms
                         Console.Write($"{tuple.Item1[j]}  ");
                 }
             }
-            Console.WriteLine();
-        }
-
-        private static readonly string[] algs = { "BubbleSort", "CocktailSort", "SelectionSort", "InsertionSort", "ShellSort", "TreeSort", "HeapSort", "GnomeSort" };
-        public IEnumerator GetEnumerator()
-        {
-            Console.WriteLine("This program implements the following sorting algorithms:");
-            return algs.GetEnumerator();
+            Console.WriteLine("\n\n" + new string('-', 100));
         }
     }
 }

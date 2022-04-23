@@ -9,7 +9,7 @@ namespace SortingAlgorithms
     {
         public (int[], int, int) MakeSort(int[] arr)
         {
-            Console.WriteLine("HeapSort");
+            Console.WriteLine(typeof(HeapSort).Name);
             var heap = new Heap<int>(arr);
             arr = heap.Order().ToArray();
 

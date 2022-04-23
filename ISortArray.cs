@@ -2,7 +2,7 @@
 
 namespace SortingAlgorithms
 {
-    interface ISortArray : IEnumerable
+    interface ISortArray
     {
         int Key { get; set; }
         int ArraySize { get; set; }

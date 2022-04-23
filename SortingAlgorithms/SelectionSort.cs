@@ -6,7 +6,7 @@ namespace SortingAlgorithms
     {
         public (int[], int, int) MakeSort(int[] arr)
         {
-            Console.WriteLine("SelectionSort");
+            Console.WriteLine(typeof(SelectionSort).Name);
             int minIdex = 0;
 
             for (int i = 0; i < arr.Length - 1; i++)

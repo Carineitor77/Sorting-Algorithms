@@ -6,7 +6,7 @@ namespace SortingAlgorithms
     {
         public (int[], int, int) MakeSort(int[] arr)
         {
-            Console.WriteLine("GnomeSort");
+            Console.WriteLine(typeof(GnomeSort).Name);
             int i = 1;
 
             while (i < arr.Length)

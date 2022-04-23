@@ -6,7 +6,7 @@ namespace SortingAlgorithms
     {
         public (int[], int, int) MakeSort(int[] arr)
         {
-            Console.WriteLine("CocktailSort");
+            Console.WriteLine(typeof(CocktailSort).Name);
             int left = 0;
             int right = arr.Length - 1;
             bool flag;

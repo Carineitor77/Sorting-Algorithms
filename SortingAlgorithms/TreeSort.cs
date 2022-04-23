@@ -9,7 +9,7 @@ namespace SortingAlgorithms
     {
         public (int[], int, int) MakeSort(int[] arr)
         {
-            Console.WriteLine("TreeSort");
+            Console.WriteLine(typeof(TreeSort).Name);
             var tree = new Tree<int>(arr);
             arr = tree.Inorder().ToArray();
 
