@@ -1,12 +1,11 @@
-﻿using System.Collections;
-
-namespace SortingAlgorithms
+﻿namespace SortingAlgorithms
 {
     interface ISortArray
     {
         int Key { get; set; }
         int ArraySize { get; set; }
         int SwapCount { get; set; }
+        int ComparisonCount { get; set; }
 
         void Swap(ref int firstPosition, ref int secondPosition);
         int Compare(int firstValue, int secondValue);

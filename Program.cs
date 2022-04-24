@@ -13,7 +13,8 @@
                 new InsertionSort(),
                 new ShellSort(),
                 new TreeSort(),
-                new HeapSort()
+                new HeapSort(),
+                new RadixSort()
             };
 
             array.StartSorting();
