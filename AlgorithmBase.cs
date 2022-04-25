@@ -129,7 +129,7 @@ namespace SortingAlgorithms
         {
             Console.WriteLine($"\nArraySize: {ArraySize}");
             Console.WriteLine($"Algorithm running time: {time}(milliseconds)");
-            if (tuple.Item2 != 0 && tuple.Item3 != 0)
+            if (tuple.Item2 != 0 || tuple.Item3 != 0)
             {
                 Console.WriteLine($"SwapCount: {tuple.Item2}");
                 Console.WriteLine($"ComparisonCount: {tuple.Item3}");
