@@ -15,7 +15,8 @@
                 new TreeSort(),
                 new HeapSort(),
                 new RadixSort(),
-                new MergeSort()
+                new MergeSort(),
+                new QuickSort()
             };
 
             array.StartSorting();
