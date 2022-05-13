@@ -13,5 +13,7 @@ This program includes such sorting algorithms:
 - Selection sort
 - Gnome sort
 - Radix sort
+- Lsd Radix sort
+- Counting sort
 - Merge sort
 - Quick sort
