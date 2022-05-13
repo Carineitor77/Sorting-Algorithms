@@ -16,7 +16,9 @@
                 new HeapSort(),
                 new RadixSort(),
                 new MergeSort(),
-                new QuickSort()
+                new QuickSort(),
+                new CountingSort(),
+                new LsdRadixSort<int>()
             };
 
             array.StartSorting();

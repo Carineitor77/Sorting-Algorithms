@@ -109,7 +109,7 @@ namespace SortingAlgorithms
             else
             {
                 for (int i = 0; i < arr.Length; i++)
-                    arr[i] = rnd.Next(-10000, 10000);
+                    arr[i] = rnd.Next(0, 10000);
             }
 
             return arr;
